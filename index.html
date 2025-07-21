@@ -3,8 +3,86 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Rabies Info</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>About Rabies</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background-color: #c15acc;
+      color: #333;
+    }
+    .sidebar {
+      width: 400px;
+      background-color: #45154a;
+      color: white;
+      height: 100vh;
+      padding-top: 20px;
+      box-sizing: border-box;
+      position: fixed;
+      left: 0;
+      top: 0;
+    }
+    .sidebar h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .sidebar a {
+      display: block;
+      text-decoration: none;
+      width: 250px;
+      margin: 10px auto;
+      padding: 20px 0;
+      background-color: #d9afde;
+      border-radius: 10px;
+      color: black;
+      font-weight: bold;
+      text-align: center;
+      font-size: 18px;
+      transition: background-color 0.3s ease;
+    }
+    .sidebar a:hover {
+      background-color: #c15f00;
+      color: white;
+    }
+    .main {
+      margin-left: 400px;
+      flex-grow: 1;
+      padding: 30px;
+      background-color: #d3bcd6;
+      box-sizing: border-box;
+    }
+    .section-box {
+      background-color: white;
+      border-radius: 10px;
+      padding: 25px 30px;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    }
+    .section-box h2 {
+      color: #45154a;
+      margin-top: 0;
+    }
+    .about-image {
+      width: 100%;
+      max-width: 1000px;
+      height: auto;
+      margin-bottom: 20px;
+      border-radius: 8px;
+    }
+    footer {
+      background-color: #45154a;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-left: 400px;
+    }
+  </style>
 </head>
 <body>
 
@@ -19,8 +97,7 @@
 
   <div class="main">
     <div id="about" class="section-box">
-      <!-- Replace the src below with your actual image file name after uploading -->
-      <img src="rabies.jpg" alt="Rabies Image" class="about-image" />
+      <img src="C:\Users\Anna Nishrine\Desktop\index.html\image\rabies.jpg" alt="Rabies Image" class="about-image" />
       <h2>What is Rabies?</h2>
       <p>Rabies is a serious viral infection that attacks the brain and nervous system. It is typically spread through bites from infected animals, and once symptoms appear, it is almost always fatal.</p>
     </div>
